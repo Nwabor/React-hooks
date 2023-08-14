@@ -7,7 +7,8 @@ const Syntax = () => {
     return () => {
       console.log('in effect clean');
     };
-  }, [checkBox]);
+  }, [checkBox
+  ]);
 
   return <div></div>;
 };
